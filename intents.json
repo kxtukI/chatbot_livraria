@@ -1,0 +1,169 @@
+{
+  "intents": [
+    {
+      "tag": "welcome",
+      "patterns": [
+        "oi", 
+        "bom dia", 
+        "boa tarde", 
+        "boa noite", 
+        "olá", 
+        "e aí"
+      ],
+      "responses": [
+        "Bem-vindo à Livraria! Como posso ajudar você hoje?",
+        "Olá! Estamos felizes em atendê-lo. Precisa de alguma recomendação de livro?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "qual seu nome?", 
+        "quem é você?", 
+        "o que é essa loja?"
+      ],
+      "responses": [
+        "Sou a assistente virtual da Livraria. Estou aqui para ajudar você a encontrar o livro perfeito!",
+        "Somos uma livraria especializada em conectar leitores com histórias incríveis. Como posso te auxiliar hoje?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "book_genres",
+      "patterns": [
+        "quais gêneros vocês têm?", 
+        "tipos de livros", 
+        "categorias de livros",
+        "gêneros disponíveis"
+      ],
+      "responses": [
+        "Temos diversos gêneros: Romance, Ficção Científica, Terror, Fantasia, Não-Ficção, Literatura Infantil, e muito mais!",
+        "Nossa biblioteca abrange Romance, Ficção, Terror, Fantasia, Biografia, Técnicos, Infantis e Juvenis. Qual seu favorito?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bestsellers",
+      "patterns": [
+        "livros mais vendidos", 
+        "quais são os best-sellers?", 
+        "recomende um livro famoso",
+        "top vendas"
+      ],
+      "responses": [
+        "Atualmente, nossos best-sellers são 'O Vilarejo' de Raphael Montes, 'Verity' de Colleen Hoover, e 'A Cinco Passos de Você' de Rachael Lippincott.",
+        "Nossos leitores adoram 'Mil Beijos de Amor', 'Diário de um Banana', e 'A Seleção'. Quer saber mais sobre eles?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "book_recommendation",
+      "patterns": [
+        "me recomende um livro", 
+        "quero ler algo novo", 
+        "preciso de uma sugestão de leitura",
+        "qual livro você sugere?"
+      ],
+      "responses": [
+        "Para amantes de suspense, recomendo 'O Homem de Giz' de C.J. Tudor. É um thriller emocionante!",
+        "Se gosta de romance, 'Para Todos os Garotos que Já Amei' de Jenny Han é uma excelente escolha.",
+        "Fã de ficção científica? 'O Marciano' de Andy Weir vai te surpreender!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "book_search",
+      "patterns": [
+        "como encontro um livro?", 
+        "posso procurar por título?", 
+        "como faço para achar um livro específico",
+        "tem o livro x?"
+      ],
+      "responses": [
+        "Você pode procurar por título, autor ou gênero. Nossos atendentes estão prontos para ajudar!",
+        "Temos um sistema de busca simples. Me diga o nome do livro ou autor que irei verificar o estoque."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "stock_check",
+      "patterns": [
+        "está disponível?", 
+        "tem no estoque?", 
+        "posso comprar agora?",
+        "quantidade em estoque"
+      ],
+      "responses": [
+        "Vou verificar nossa disponibilidade. Me informe o título ou autor.",
+        "Posso checar o estoque para você. Qual livro gostaria de saber?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "como faço para comprar?", 
+        "vocês entregam?", 
+        "qual valor do frete?",
+        "posso receber em casa?"
+      ],
+      "responses": [
+        "Oferecemos entrega para todo o Brasil. Frete grátis para compras acima de R$100!",
+        "Realizamos entregas em todo território nacional. O valor do frete varia conforme sua localização."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "obrigado", 
+        "obrigada", 
+        "valeu", 
+        "ajudou muito"
+      ],
+      "responses": [
+        "Foi um prazer ajudar! Volte sempre à Livraria.",
+        "Estamos sempre à disposição. Feliz em poder auxiliar!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "qual horário de funcionamento?", 
+        "estão abertos?", 
+        "horário da loja",
+        "quando posso visitar?"
+      ],
+      "responses": [
+        "Nossa loja física funciona de segunda a sábado, das 9h às 20h. Nosso site está disponível 24 horas!",
+        "Você pode nos visitar de segunda a sábado, das 9h às 20h. Online, estamos sempre disponíveis!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "censored",
+      "patterns": [
+        "feia", 
+        "chata", 
+        "inútil",
+        "não me ajuda"
+      ],
+      "responses": [
+        "Peço desculpas se não pude ajudar completamente. Estou aqui para melhorar.",
+        "Entendo sua frustração. Vamos tentar novamente?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "anything_else",
+      "patterns": [],
+      "responses": [
+        "Desculpe, não entendi completamente. Poderia ser mais específico?",
+        "Não consegui compreender. Que tal tentar de outra forma?"
+      ],
+      "context": [""]
+    }
+  ]
+}
