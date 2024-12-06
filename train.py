@@ -1,16 +1,17 @@
 import json
-import pickle5 as pickle
+import pickle
 import nltk
 import random
 import numpy as np
 import unicodedata
+import tensorflow
 
 import os
 import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stderr.reconfigure(encoding='utf-8')
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+os.environ['TF_ENABLE_ONEDNN_OPTS']='0'
 
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import Sequential

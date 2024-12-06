@@ -39,3 +39,14 @@ pip install tensorflow
 ```bash
 pip install pickle5
 ```
+
+## Como usar
+- Rode primeiro o train.py 
+```bash
+python train.py
+```
+
+- Depois rode o bot.py
+```bash
+python bot.py
+```
